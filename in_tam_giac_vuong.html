@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let H = 5;
+    for (let i = 1; i <= H; i++) {
+        for (let j = 1; j <= i; j++) {
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+
+
+</script>
+<br>
+<script>
+    let input_b = 1;
+    for (let i = 5; i >= input_b; i--) {
+        for (let j = 1; j <= i; j++){
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+</script>
+<br>
+<script>
+    let input_c = 5;
+    for(let i = 1; i <= input_c; i++) {
+        for (let k = input_c; k > i; k--){
+            document.write("&ensp;");
+        }
+        for (let j = 1; j <= i; j++) {
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+
+</script>
+</body>
+</html>
