@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+
 <script>
     let H = 5;
     for (let i = 1; i <= H; i++) {
@@ -16,6 +17,7 @@
 
 
 </script>
+
 <br>
 <script>
     let input_b = 1;
@@ -40,5 +42,117 @@
     }
 
 </script>
+<br>
+<script>
+    for (let i = 1; i <= 5; i++) {
+        for (let j = 2; j <= i; j++) {
+            document.write("&ensp;");
+        }
+        for (let j = 0; j <= 5 - i; j++) {
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+</script>
+<script>
+    for (let i = 0; i <= 7; i++) {
+        if (i == 0 || i == 7) {
+            for (let j = 0; j <= 20; j++) {
+                document.write("*");
+            }
+        }else {
+           for (let j = 0; j <= 20; j++) {
+               if(j == 0 || j == 20) {
+                   document.write("*");
+               }else {
+                   document.write("&ensp;")
+               }
+           }
+        }
+
+        document.write("<br>")
+    }
+</script>
+
+<script>
+    for(let i = 0; i <= 50; i++) {
+        if(i == 10){
+            for (let j = 0; j <= 50; j++) {
+                if(j == 0 || j == 50) {
+                    document.write("*");
+                }else {
+                    document.write("&ensp;")
+                }
+            }
+        }
+        else if(i == 15){
+            for (let j = 0; j <= 50; j++) {
+                if(j == 3 || j ==47) {
+                    document.write("*");
+                }else {
+                    document.write("&ensp;")
+                }
+            }
+        }
+        else if(i == 20){
+            for (let j = 0; j <= 50; j++) {
+                if(j == 10 || j ==40) {
+                    document.write("*");
+                }else {
+                    document.write("&ensp;")
+                }
+            }
+        }
+        else if(i == 25){
+            for (let j = 0; j <= 50; j++) {
+                if(j == 26) {
+                    document.write("*");
+                }else {
+                    document.write("&ensp;")
+                }
+            }
+        }
+        else if(i == 5){
+            for (let j = 0; j <= 50; j++) {
+                if(j == 7 || j == 43)  {
+                    document.write("*");
+                }else {
+                    document.write("&ensp;")
+                }
+            }
+        }
+        else if(i == 9){
+            for (let j = 0; j <= 50; j++) {
+                if(j == 20 || j == 33)  {
+                    document.write("*");
+                }else {
+                    document.write("&ensp;")
+                }
+            }
+        }
+        else if(i == 11){
+            for (let j = 0; j <= 50; j++) {
+                if(j == 26)  {
+                    document.write("*");
+                }else {
+                    document.write("&ensp;")
+                }
+            }
+        }
+        else if(i == 7){
+            for (let j = 0; j <= 50; j++) {
+                if(j == 14 || j == 38 || j == 1 || j == 49)  {
+                    document.write("*");
+                }else {
+                    document.write("&ensp;")
+                }
+            }
+        }
+
+
+        document.write("<br>")
+    }
+
+</script>
 </body>
-</html>
+</html>g
