@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<button onclick="btn()">chơi nào!</button>
+<body>
+<script>
+    function btn() {
+        let a = parseInt(prompt("khoảng bắt đầu:"));
+        let b = parseInt(prompt("khoảng kết thúc: "));
+        let c = Math.floor(Math.random() * (b - a) + a);
+        for ( i = 0; i < 3; i++) {
+            let d = prompt("số muốn chơi:");
+            if (d == c) {
+                alert("win!");
+                break;
+            }else if (d < c) {
+                alert("Số nhỏ hơn!");
+            }else {
+                alert("số lớn hơn!");
+            }
+        }
+    }
+</script>
+</body>
+</html>
